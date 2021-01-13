@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "PS enchanced",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+  "description": "Adds buttons to missing items and the primenow items",
+  "icons": {
+    "48": "icons/amazon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://primenow.amazon.com/dp/*"],
+      "js": ["primenow.js"]
+    },
+    {
+      "matches": ["change_this"],
+      "js": ["amazon.js"]
+    }
+  ],
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "tab"
+  ]
+}
