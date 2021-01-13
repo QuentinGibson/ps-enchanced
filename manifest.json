@@ -15,7 +15,7 @@
       "js": ["primenow.js"]
     },
     {
-      "matches": ["change_this"],
+      "matches": ["https://aftlite-na.amazon.com/wms/pack_by_picklist/*"],
       "js": ["amazon.js"]
     }
   ],
@@ -23,6 +23,6 @@
   "permissions": [
     "<all_urls>",
     "activeTab",
-    "tab"
+    "tabs"
   ]
 }
