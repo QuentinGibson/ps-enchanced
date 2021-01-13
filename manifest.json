@@ -7,7 +7,7 @@
   },
   "description": "Adds buttons to missing items and the primenow items",
   "icons": {
-    "48": "icons/amazon.png"
+    "48": "amazon.jpg"
   },
   "content_scripts": [
     {
